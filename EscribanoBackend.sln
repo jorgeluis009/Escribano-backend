@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.329
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EscribanoBackend", "EscribanoBackend\EscribanoBackend.csproj", "{EB7D2ED8-19FD-4EA7-B854-C07015A0D08B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserDataAccesss", "UserDataAccesss\UserDataAccesss.csproj", "{1BCC8F5E-67A1-419A-AAA5-573FF595B63E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EB7D2ED8-19FD-4EA7-B854-C07015A0D08B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB7D2ED8-19FD-4EA7-B854-C07015A0D08B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB7D2ED8-19FD-4EA7-B854-C07015A0D08B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB7D2ED8-19FD-4EA7-B854-C07015A0D08B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BCC8F5E-67A1-419A-AAA5-573FF595B63E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BCC8F5E-67A1-419A-AAA5-573FF595B63E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BCC8F5E-67A1-419A-AAA5-573FF595B63E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BCC8F5E-67A1-419A-AAA5-573FF595B63E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {923B9DD5-1F6E-47D6-A361-287F93D51581}
+	EndGlobalSection
+EndGlobal
