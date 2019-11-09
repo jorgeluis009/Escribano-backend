@@ -5,6 +5,7 @@ using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
+using System.Web.Http.Cors;
 using System.Web.Http.Description;
 using UserDataAccesss;
 
@@ -26,6 +27,7 @@ namespace EscribanoBackend.Controllers
         
         // GET: api/Users
         [ResponseType(typeof(IEnumerable<Users>))]
+        [EnableCors(origins: "*", headers: "*", methods: "*")]
         public IEnumerable<Users> Get()
         {
             /*using (NotariaDataBaseEntities entities = new NotariaDataBaseEntities())
